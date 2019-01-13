@@ -77,6 +77,5 @@ class Railcard extends Component {
     }
 }
 
-render(<Railcard />, document.getElementById('root'));
 
 export default Railcard;

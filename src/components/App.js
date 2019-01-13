@@ -11,8 +11,17 @@ import ReactDOM, { render } from 'react-dom';
 // import TrainTicket from './trainTicket/TrainTicket';
 import Railcard from './railcard/Railcard';
 
-class App extends Component {
+class App extends React.Component {
+  constructor(){
+    super()
+    this.state = {
+      term:''
+    }
+
+  }
+
   render() {
+    console.log(this.state);
     return (
       // <Hiro />
       // <Torus />
@@ -24,6 +33,6 @@ class App extends Component {
   }
 }
 
-render(<App />, document.getElementById('root'));
+
 
 export default App;
