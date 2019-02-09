@@ -6,9 +6,50 @@ import journeyDetails from './journey-details.png';
 import informationIcon from './information-icon.png';
 import trainIcon from './train-icon.png';
 import userProfile from './user-profile.png';
+import selfie from './image.png';
 
 class Railcard extends Component {
+  constructor(){
+    super()
+    this.state = {
+      selfies: []
+    }
+  }
+  componentDidMount(){
+    fetch('http://localhost:3004/pictures')
+    .then(res=>res.json())
+    .then(selfies=>this.setState({
+      selfies:selfies
+    }))
+  }
+
+let
+
+
     render() {
+
+      let selfiesArr = this.state.selfies.map((pic, i)=>{
+        debugger
+        return(<img id={pic.id} src={pic.selfie} />)
+      })
+      let entities =this.state.selfies.map((selfie, i)=>{
+        // debugger
+        return(<a-entity
+          id="journey-details"
+          journey-details-listener
+          cursor="fuse: true; fuseTimeout: 500"
+          position="2 0 0"
+          geometry="primitive: box; height: 0.1; depth: 1.5; rotation: 90 0 0;"
+          material="shader: flat; src: #{selfie.selfie}"
+          visible="false">
+          <a-animation attribute="position"
+            dur="3000"
+            begin="journeyDetailsAnimation"
+            from="1 0.1 0"
+            to="2 0.01 0"/>
+        </a-entity>)
+      })
+      console.log(this.state.selfies)
         return (
           <AFrameRenderer arToolKit={{ sourceType: 'webcam' }}>
             <Marker parameters={{
@@ -17,7 +58,7 @@ class Railcard extends Component {
                 url: "https://raw.githubusercontent.com/lbelfield/augmented-reality/master/src/components/trainTicket/train-ticket.patt"
               }}>
               <a-assets-item img id="appTicket" src={appTicket} />
-              <a-assets-item img id="journeyDetails" src={journeyDetails} />
+              <a-assets-item img id="journeyDetails" src={selfie} />
               <a-assets-item img id="informationIcon" src={informationIcon} />
               <a-assets-item img id="trainIcon" src={trainIcon} />
               <a-assets-item img id="userProfile" src={userProfile} />

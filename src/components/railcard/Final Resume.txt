@@ -1,0 +1,65 @@
+Irving Rabel
+631-741-3152 | rabel606@gmail.com| rabelirv | https://medium.com/@rabel606
+TECHNICAL PROJECTS
+Friendly - Github | Demo
+Messaging/ Social Media Application for All ages.
++ Provides Users with Instant Messaging Capabilities using Socket.IO. 
++ Login and Authentication Using JWT Auth.
++ Allows users to upload Pictures and Video to “The Story” using Augmented Reality 3D rendering.
++ Add Friends and start conversations in Direct Messaging.
+
+BBall Finder - Github | Demo
+A way for Basketball Players to find pick-up games at near by courts.
++ Create a User Profile equipped with Authentication.
++ Uses Restful Routing for cleaner, shorter URL’s and a better user experience.
++ Validations on Forms to Account for Human Error.
++ Uses Basic CRUD which allows for changes made by the User to persist. 
+
+Boozer - Github | Demo
+Find and Create Drink Recipes for a fun night out!
++ Uses Dynamic and Controlled Forms.
++ User can use a search Form to filter through over 300 Drinks.
++ Retrieves data from a Ruby on Rails Backend to provide the User with tons of data.
+  
+ TECHNICAL SKILLS
+Ruby, Rails, SQL, JavaScript, React, CSS, SASS
+   
+
+            
+
+
+            
+
+            
+
+
+EMPLOYMENT HISTORY
+Assembly Member Felix W. Ortiz, Brooklyn, NY
+Office Aide, April 2018 - June 2018
++ Handled constituent inquiries, which included coordinating with government agencies, completing food stamp applications with  
+   constituents; drafted detailed letters to benefit the constituents.
++ Assisted in photo ops during press conferences and events to be used as promotion on social media.
++ Shadowed Chief of Staff during meetings with constituents to acquire knowledge on how to serve
+   constituents with issues.
+WasemeStennant LLC, New York, NY
+Legal Assistant, September 2017 - December 2017
++ Helped manage a law firm, non- profit organization, and advisory firm.
++ Delivered presentations on various legal topics such as trademarks, patents and copyrights. 
++ Assisted in scheduling, conducting, and analyzing interviews.
+Seton Hall University, South Orange, NJ
+Conference Assistant, May 2016- August 2016
++ Communicated and coordinated with a team of other conference assistants in order to perform and
+  execute various managerial projects.
++ Efficiently responded to needs of summer conference guests from various companies, offering to work extended hours as      
+  needed.
++ Oversaw critical administrative tasks such as billing, organizing rooms, handling paperwork and any
+    responsibilities of supervisors in their absences.
+
+EDUCATION
+Flatiron School - 2019 
++ Full Stack Web Development, Ruby on Rails and JavaScript online program
+
+Seton Hall University- South Orange, NJ 2013-2016
+
+
+Full stack web developer with a passion for creating. Experience in Ruby on Rails, JavaScript, and React and a background in Political Science, Discovered web development through a conversation with a random person on the street while canvassing for a Political Party. Offer strong skills in creativity and problem solving that helps companies solve problems while communicating well with others.

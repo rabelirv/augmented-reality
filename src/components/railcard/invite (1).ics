@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sebbo.net//ical-generator//EN
+BEGIN:VEVENT
+UID:u2qm@ip-172-31-24-111
+SEQUENCE:0
+DTSTAMP:20190129T231027Z
+DTSTART:20190201T120000Z
+DTEND:20190201T130000Z
+SUMMARY:Interview w/ Hou Chia
+LOCATION:www.skilledinc.com
+DESCRIPTION:Interview on Skilled w/ Hou Chia
+ORGANIZER;CN="Skilled":mailto:<hello@skilledinc.com>
+ATTENDEE;ROLE=REQ-PARTICIPANT;CN="Hou Chia":MAILTO:kchia87@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;CN="Irving Rabel":MAILTO:rabel606@gmail.com
+URL;VALUE=URI:http://www.skilledinc.com/app/interview/2495
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
